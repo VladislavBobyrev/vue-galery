@@ -1,0 +1,12 @@
+<template>
+  <AuthView/>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import AuthView from '@/views/AuthView.vue'
+
+export default defineComponent({
+  components: { AuthView },
+})
+</script>
