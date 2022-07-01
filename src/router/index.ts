@@ -24,6 +24,20 @@ const routes: Array<RouteRecordRaw> = [
       auth: false,
     },
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/NotFound/NotFound.vue'),
+    meta: {
+      layout: 'main',
+      auth: false,
+      title: 'Not Found',
+    },
+  },
+
 ]
 
 const router = createRouter({
