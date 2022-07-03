@@ -15,22 +15,17 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/auth',
     name: 'auth',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AuthView.vue'),
+    component: () => import('../views/AuthView/AuthView.vue'),
     meta: {
       layout: 'auth',
       auth: false,
     },
   },
   {
+    // страница 404
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/NotFound/NotFound.vue'),
+    component: () => import('../views/NotFound/NotFound.vue'),
     meta: {
       layout: 'main',
       auth: false,

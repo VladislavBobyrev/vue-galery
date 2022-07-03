@@ -1,0 +1,42 @@
+section.auth {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  background: $bg-primary-75;
+  color: $bg-basic;
+  padding: 2rem;
+
+  label {
+    display: flex;
+    gap: 1rem;
+    text-transform: uppercase;
+    flex-direction: column;
+  }
+
+  input {
+    padding: 0.3rem;
+    border-radius: 3px;
+    font-size: 1.3rem;
+  }
+
+  small {
+    font-size: 0.7rem;
+  }
+  button {
+    background: $bg-accent;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+}
