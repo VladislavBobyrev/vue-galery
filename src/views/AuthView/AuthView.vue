@@ -1,6 +1,4 @@
 <template>
-
-  <h2>auth</h2>
   <section class="auth">
     <form @submit.prevent>
       <div class="form-control">
@@ -41,7 +39,7 @@ const login = () =>
     else
     {
       store.dispatch('auth/login')
-      console.log('isAuthenticated', store.getters['auth/isAuthenticated'])
+
       // если пользователь имеет ключь в lockalStorage направляем на главную страницу
       if (store.getters['auth/isAuthenticated'])
       {

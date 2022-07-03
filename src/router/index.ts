@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import store from '@/store'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/HomeView/HomeView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -10,6 +10,7 @@ const routes: Array<RouteRecordRaw> = [
     meta: {
       layout: 'main',
       auth: true,
+      title: 'Galery',
     },
   },
   {
@@ -19,6 +20,7 @@ const routes: Array<RouteRecordRaw> = [
     meta: {
       layout: 'auth',
       auth: false,
+      title: 'Authenticated',
     },
   },
   {

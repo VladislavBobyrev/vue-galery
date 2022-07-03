@@ -1,3 +1,4 @@
+# VUE АВТОРИЗАЦИЯ
 <details>
   <summary>Задача</summary>
 
@@ -30,10 +31,10 @@
 
 <div align="left">
 
-<!-- ![Lax 2.0 Gif](./README/readme.gif) -->
+![Lax 2.0 Gif](./README/readme.gif)
 
 
-<!-- ## Проект сожержит
+## Проект сожержит
 
 <details >
   <summary >Vue</summary>
@@ -62,7 +63,7 @@
     шапка сайта остается неизменной
 </details>
 
-<details >
+<!-- <details >
   <summary >Yup</summary>
  
   [Что это?](https://www.npmjs.com/package/yup) 
@@ -76,7 +77,7 @@
   [Что это?](https://vee-validate.logaretm.com/v4/) 
 
     Form Validation for Vue.js
-</details>
+</details> -->
 
 <details> 
   <summary>Scss</summary>
@@ -99,9 +100,8 @@
  
   По умолчанию [localhost:8080](http://localhost:8080).
 </details>
--->
 
-<!-- # 
+# 
 ## Для запуска потребуется
 - этот репозиторий 
  ```
@@ -113,7 +113,7 @@ git clone https://github.com/VladislavBobyrev/
 https://nodejs.org/en/
 ```
 
-- браузер -->
+- браузер 
 
 #
 ## Команды

@@ -1,5 +1,5 @@
 <template>
-
+  <h2>{{this.$route.meta.title}}</h2>
   <AuthView/>
 </template>
 

@@ -1,0 +1,26 @@
+.galery {
+  position: relative;
+  overflow: auto;
+}
+.galery-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12%, 15fr));
+  justify-content: space-between;
+  gap: 1rem;
+
+  .active {
+    grid-row: span 2;
+    grid-column: span 2;
+    border: 2px dashed $color-secondary;
+    background: $bg-basic-75;
+  }
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 2px dashed $color-basic;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.33);
+}
